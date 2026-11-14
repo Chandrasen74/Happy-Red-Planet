@@ -1,27 +1,45 @@
-# Happy Red Planet Day
+# Happy-Red-Planet
+
+**Live demo:** https://chandrasen74.github.io/Happy-Red-Planet/  
+**Repository:** https://github.com/Chandrasen74/Happy-Red-Planet
+
+![Screenshot of Happy-Red-Planet](screenshot.png)
 
 ## Overview
-**Happy-Red-Planet** is a HTML, CSS project with a browser-viewable demo (GitHub Pages).
+`Happy-Red-Planet` is a HTML/CSS project.
+- **Primary language:** CSS
+- **Languages detected:** HTML, CSS
+- **Stack/tech:** HTML, CSS
+- **Entry point:** `index.html`
+- **Key files:** `index.html`
 
-- Primary language: **CSS**
-- Detected stack: HTML, CSS
-- HTML title: Happy Red Planet Day
+## Language & stack details
+- Languages: HTML, CSS
+- Frameworks/tools/libraries: HTML, CSS
 
-**Live/demo:** https://chandrasen74.github.io/Happy-Red-Planet/
+## How to install & run
+### Prerequisites
+- A modern web browser
+- (Optional) [Python 3](https://www.python.org/) or any static file server for local serving
 
-## Repository contents
-- `124582.png`
-- `README.md`
-- `index.html`
-- `style.css`
-
-## Getting started
+### Run locally
 ```bash
 git clone https://github.com/Chandrasen74/Happy-Red-Planet.git
 cd Happy-Red-Planet
-# open index.html in a browser, or serve locally:
+```
+- **Option 1:** open `index.html` directly in your browser
+- **Option 2:** serve locally (recommended for some JS features):
+```bash
 python -m http.server 8000
+# then open http://localhost:8000
 ```
 
+## Repository structure (top-level/sample)
+- `124582.png`
+- `README.md`
+- `index.html`
+- `screenshot.png`
+- `style.css`
+
 ## Status
-README generated/updated as part of a profile-wide documentation pass based on repository contents.
+Documented with screenshot, language/stack details, and setup instructions as part of a profile-wide README update.
